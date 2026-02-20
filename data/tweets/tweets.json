@@ -1,11 +1,37 @@
 {
-    "fetched_at": "2026-02-20T17:15:03.343497+00:00",
+    "fetched_at": "2026-02-20T17:30:03.355951+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 2,
+            "posts": [
+                {
+                    "id": "2024899274501489148",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウマクドナルドが当たりました！\n\n#オリパワン当選報告 https://t.co/IJJbMbngDm",
+                    "author_name": "遠藤弘也",
+                    "author_username": "5QX5W1xaEE2786",
+                    "created_at": "2026-02-21T02:29:42+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnjAYpbQAAbV9f.jpg"
+                    ]
+                },
+                {
+                    "id": "2024898698501841158",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\n招待コードDjnwxB\n #オリパワン当選報告 \n#オリパワン\n時々やるガチャで絶版BOXGET!\n\n最大1500コインもらえるよ〜\n\nオリパワン（@oripaone）しか勝たん\n\n#オリパワン当選報告 https://t.co/IpV20xTZ7t",
+                    "author_name": "そう、そうなのよ",
+                    "author_username": "BpUI9hRFHu86341",
+                    "created_at": "2026-02-21T02:27:25+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBniopwaoAAB_os.jpg",
+                        "https://pbs.twimg.com/media/HBniopoaAAAJGMz.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -14,8 +40,21 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024896679963660537",
+                    "text": "DOPA君ありがとう！\nめっちゃ嬉しい\n\n#DOPAオリパ \n#DOPA当選報告 \n#DOPA3周年 \n#DOPA3周年おめでとう https://t.co/ZvVN59mSpu",
+                    "author_name": "サン",
+                    "author_username": "Ioveyouuuu9",
+                    "created_at": "2026-02-21T02:19:23+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBngy78aYAAbcrw.jpg"
+                    ]
+                }
+            ]
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
