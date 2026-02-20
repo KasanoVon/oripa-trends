@@ -1,5 +1,5 @@
 {
-    "fetched_at": "2026-02-20T22:15:04.279601+00:00",
+    "fetched_at": "2026-02-20T22:30:04.312034+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
@@ -14,69 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 5,
-            "posts": [
-                {
-                    "id": "2024969769485804013",
-                    "text": "夏ポケシャワーズありがとうございます🙏🎉\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/ZDU9Wd81iw",
-                    "author_name": "ちおー",
-                    "author_username": "kanpukk",
-                    "created_at": "2026-02-21T07:09:49+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBojRR5bgAAHweO.jpg"
-                    ]
-                },
-                {
-                    "id": "2024969165422166393",
-                    "text": "#DOPAオリパ\n#DOPA当選報告 \nなんとか当たりました。\n高額カードも当ててみたい💦 https://t.co/zk9oRpHvME",
-                    "author_name": "昌功 大平",
-                    "author_username": "cYP1udHs8I40247",
-                    "created_at": "2026-02-21T07:07:25+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBoin-ubUAAB9hL.jpg"
-                    ]
-                },
-                {
-                    "id": "2024968843098292307",
-                    "text": "ソルガレオ＆ルナアーラGXが当たりました\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/ArlWjChtBL",
-                    "author_name": "高橋",
-                    "author_username": "niku29niku2929",
-                    "created_at": "2026-02-21T07:06:08+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBoibnaakAAD-vT.jpg"
-                    ]
-                },
-                {
-                    "id": "2024968471059333456",
-                    "text": "シャイニートレジャーEXのBOXが当たりました\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/I1ng6VKHCW",
-                    "author_name": "高橋",
-                    "author_username": "niku29niku2929",
-                    "created_at": "2026-02-21T07:04:40+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBoiF8zagAANKIy.jpg"
-                    ]
-                },
-                {
-                    "id": "2024968300934168769",
-                    "text": "バトルパートナーズBOX　3個当たりました\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/1YnAeyeKoY",
-                    "author_name": "高橋",
-                    "author_username": "niku29niku2929",
-                    "created_at": "2026-02-21T07:03:59+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBoh8DVakAAU8XL.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
