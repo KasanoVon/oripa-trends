@@ -1,11 +1,48 @@
 {
-    "fetched_at": "2026-02-20T16:15:03.282241+00:00",
+    "fetched_at": "2026-02-20T16:30:03.328618+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 3,
+            "posts": [
+                {
+                    "id": "2024882473482829999",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nサイバージャッジのBOXが当たりました！\n\n#オリパワン当選報告 https://t.co/kyKBFryvw7",
+                    "author_name": "kazu",
+                    "author_username": "kazu52810495",
+                    "created_at": "2026-02-21T01:22:56+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnT4GDa4AEfeLE.jpg"
+                    ]
+                },
+                {
+                    "id": "2024882273443815551",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nかんこうきゃくが当たりました！\n\n#オリパワン当選報告 https://t.co/gu0TCnjBMe",
+                    "author_name": "オリパしか勝たん",
+                    "author_username": "ZcJiPY5BIR53431",
+                    "created_at": "2026-02-21T01:22:09+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnTsAXbUAAoY64.jpg"
+                    ]
+                },
+                {
+                    "id": "2024880610649739287",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nNIKE×TIFFANY\nコラボスニーカー\nが当たりました！\n\n#オリパワン当選報告 https://t.co/b2OlGVZ2CE",
+                    "author_name": "donko",
+                    "author_username": "donko120583",
+                    "created_at": "2026-02-21T01:15:32+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnSLdsbYAAupl3.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -14,8 +51,69 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 0,
-            "posts": []
+            "count": 5,
+            "posts": [
+                {
+                    "id": "2024884096435208358",
+                    "text": "@note  \n楽しませてもらってます◓⃙いつもありがとうございます☘️\n #DOPAオリパ \n #DOPA当選報告 https://t.co/UTRNF8N86A",
+                    "author_name": "ま",
+                    "author_username": "oocceea",
+                    "created_at": "2026-02-21T01:29:23+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnVWpWaYAII744.jpg"
+                    ]
+                },
+                {
+                    "id": "2024884044564234748",
+                    "text": "変幻の仮面が当たりました！\n#DOPAオリパ\n#DOPA当選報告 https://t.co/Nul31XCVUg",
+                    "author_name": "kazu",
+                    "author_username": "kazu52810495",
+                    "created_at": "2026-02-21T01:29:11+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnVTRobgAUFNkc.jpg"
+                    ]
+                },
+                {
+                    "id": "2024883913370599697",
+                    "text": "ウッウが当たりました！\n#DOPAオリパ\n#DOPA当選報告 https://t.co/DiUFPDSDoz",
+                    "author_name": "kazu",
+                    "author_username": "kazu52810495",
+                    "created_at": "2026-02-21T01:28:40+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnVL2PaoAAl0xC.jpg"
+                    ]
+                },
+                {
+                    "id": "2024883791974879501",
+                    "text": "ヒスイの仲間たちが当たりました！\n#DOPAオリパ\n#DOPA当選報告 https://t.co/iIVb0WvzT0",
+                    "author_name": "kazu",
+                    "author_username": "kazu52810495",
+                    "created_at": "2026-02-21T01:28:11+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnVExVbMAAoSuB.jpg"
+                    ]
+                },
+                {
+                    "id": "2024883675264090333",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\nなにかのPSA10/30000 https://t.co/tGHdl4SJ2j",
+                    "author_name": "ぶるお",
+                    "author_username": "tt4MzrNGOK3064",
+                    "created_at": "2026-02-21T01:27:43+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnU91EbgAIWme3.jpg"
+                    ]
+                }
+            ]
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
@@ -24,8 +122,21 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024883660613451835",
+                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【ムニキスゼロBOX】ぶち抜きで爆アドゲットだぜ！！！\n\n新弾BOXありがとうございます!!\n\n#オリくじ当選報告\n#オリくじ https://t.co/zLzlea93U8",
+                    "author_name": "shin jack",
+                    "author_username": "shin900taro",
+                    "created_at": "2026-02-21T01:27:39+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnU9VobgAMwx5d.jpg"
+                    ]
+                }
+            ]
         }
     }
 }
