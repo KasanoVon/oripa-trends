@@ -1,11 +1,36 @@
 {
-    "fetched_at": "2026-02-20T23:30:02.623197+00:00",
+    "fetched_at": "2026-02-20T23:45:02.616629+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 2,
+            "posts": [
+                {
+                    "id": "2024993180127822248",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nセブンプロモピカチュウが当たりました！\n絶好調！\n#オリパワン当選報告 https://t.co/s8ZdwUvfqN",
+                    "author_name": "ギザ✨おとおじ",
+                    "author_username": "otojiuma",
+                    "created_at": "2026-02-21T08:42:51+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBo4fjHbgAAsX_p.jpg"
+                    ]
+                },
+                {
+                    "id": "2024992753944584430",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nマリィが当たりました！\n\nu24aeb\n↑招待コードも是非使ってください！\n\n#オリパワン当選報告 https://t.co/tN3nucdc1L",
+                    "author_name": "SJo",
+                    "author_username": "sachi_hira",
+                    "created_at": "2026-02-21T08:41:09+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBo4LRKaQAAD7G9.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -17,15 +42,15 @@
             "count": 1,
             "posts": [
                 {
-                    "id": "2024987285822005733",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\nブーさんありがとう！\n当たってビックリしました！ https://t.co/R7bH6zk0GB",
+                    "id": "2024990220689826172",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\nピカチュウたちありがとう！ https://t.co/xwF5dJWkwC",
                     "author_name": "納豆",
                     "author_username": "nattou634",
-                    "created_at": "2026-02-21T08:19:26+09:00",
+                    "created_at": "2026-02-21T08:31:05+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBozNFebgAI5td7.jpg"
+                        "https://pbs.twimg.com/media/HBo137hboAAECdS.jpg"
                     ]
                 }
             ]
@@ -37,8 +62,21 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024993495690478060",
+                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【メガドリームex】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ\n運良くまたボックスGETしました😆発送早かった! https://t.co/I7J2Y51WQr",
+                    "author_name": "MM62@無に帰す人",
+                    "author_username": "shxhskxymayAu",
+                    "created_at": "2026-02-21T08:44:06+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBo42ZDaIAAE5Mr.jpg"
+                    ]
+                }
+            ]
         }
     }
 }
