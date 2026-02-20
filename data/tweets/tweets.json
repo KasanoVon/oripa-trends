@@ -1,11 +1,51 @@
 {
-    "fetched_at": "2026-02-20T15:45:03.309081+00:00",
+    "fetched_at": "2026-02-20T16:00:03.315785+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 3,
+            "posts": [
+                {
+                    "id": "2024876426286288947",
+                    "text": "今日はこれくらいにしとくか…！\n\n#オリパワン当選報告 https://t.co/YEnMyWYcht",
+                    "author_name": "teto",
+                    "author_username": "m4Caf30fk8EnqeN",
+                    "created_at": "2026-02-21T00:58:55+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnOX75aMAAXbVA.jpg",
+                        "https://pbs.twimg.com/media/HBnOX8BacAErE80.jpg",
+                        "https://pbs.twimg.com/media/HBnOX5ib0AEWj4i.jpg",
+                        "https://pbs.twimg.com/media/HBnOX74bsAACrQc.jpg"
+                    ]
+                },
+                {
+                    "id": "2024874071868260568",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nカメール、ヒトカゲ、他も色々当たりました！\n\n#オリパワン当選報告 https://t.co/tvziIO5s9b",
+                    "author_name": "MMM Miru (MMM)",
+                    "author_username": "mmm_miru95321",
+                    "created_at": "2026-02-21T00:49:33+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnMOQ4bIAA2FNC.jpg"
+                    ]
+                },
+                {
+                    "id": "2024873282655392169",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nリーリエの決心が当たりました！\n\n#オリパワン当選報告 https://t.co/wBlVgzaNh2",
+                    "author_name": "う真",
+                    "author_username": "sin4161210",
+                    "created_at": "2026-02-21T00:46:25+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnLf-0aEAAoY-o.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -14,8 +54,21 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024873937541443832",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\nメガゲンガーPSA10 https://t.co/wO6VYd9g5Z",
+                    "author_name": "久保田 彰",
+                    "author_username": "akirann821",
+                    "created_at": "2026-02-21T00:49:01+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnMGrKb0AANxjw.jpg"
+                    ]
+                }
+            ]
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
@@ -24,8 +77,21 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024876482477343192",
+                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【100000 or 300000福袋】ぶち抜きで爆アドゲットだぜ！！！\n\nシロナsrのpsa10とmリザードンex20thのpsa10、スターバースBOX\n………これ300000超えてませんか??\n本当にありがとうございます、だいじにだいじにしますm(_ _)m\n\n#オリくじ当選報告\n#オリくじ https://t.co/JAp2JmI1Ab",
+                    "author_name": "shin jack",
+                    "author_username": "shin900taro",
+                    "created_at": "2026-02-21T00:59:08+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBnObePbkAAFY_F.jpg"
+                    ]
+                }
+            ]
         }
     }
 }
