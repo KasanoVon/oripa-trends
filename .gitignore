@@ -1,0 +1,7 @@
+# 絶対に公開しないもの
+x_cookies.json
+cookies.json
+*.py
+__pycache__/
+*.pyc
+.env

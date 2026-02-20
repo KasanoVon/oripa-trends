@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オリパトレンド | Clove・DOPA・オリくじ検索トレンド分析</title>
+    <meta name="description" content="Clove・DOPA・オリくじ・オリパワン・日本トレカセンターの検索トレンドを可視化。期間比較とX当選報告ポストのランキングをまとめて確認できます。">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="オリパトレンド">
+    <meta property="og:title" content="オリパトレンド | オリパ検索トレンド分析">
+    <meta property="og:description" content="主要オリパサイトの検索トレンドとX当選報告を一画面でチェック。">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="ogp.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="オリパトレンド | オリパ検索トレンド分析">
+    <meta name="twitter:description" content="主要オリパサイトの検索トレンドとX当選報告を可視化。">
+    <meta name="twitter:image" content="ogp.png">
+    <meta name="theme-color" content="#111315">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "オリパトレンド",
+      "url": "/",
+      "inLanguage": "ja",
+      "description": "主要オリパサイトの検索トレンドとX当選報告ポストを確認できる分析ダッシュボード。"
+    }
+    </script>
+    <style>
+        :root {
+            --bg: #111315;
+            --surface: rgba(255,255,255,0.03);
+            --surface-hover: rgba(255,255,255,0.06);
+            --border: rgba(255,255,255,0.10);
+            --border-hover: rgba(212,175,55,0.35);
+            --text: #ece7dc;
+            --text-muted: #a39b8e;
+            --text-dim: #c4bcad;
+            --accent: #b79b5b;
+            --accent-2: #8f7650;
+            --lux-line: rgba(224,198,139,0.28);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            background-image:
+                radial-gradient(ellipse 85% 55% at 15% 0%, rgba(183,155,91,0.10) 0%, transparent 62%),
+                radial-gradient(ellipse 60% 45% at 90% 100%, rgba(120,102,71,0.12) 0%, transparent 65%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 24px 20px;
+            letter-spacing: 0.01em;
+        }
+
+        .container { max-width: 1240px; margin: auto; }
+
+        /* ===== ヘッダー ===== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 14px;
+            position: relative;
+        }
+        .header::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -1px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--lux-line), transparent);
+        }
+
+        .header-left { display: flex; align-items: center; gap: 12px; }
+
+        .header-icon {
+            width: 38px; height: 38px;
+            background: linear-gradient(135deg, #4c4338, #9f8558);
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 800;
+            font-family: 'Noto Serif JP', serif;
+            background: linear-gradient(90deg, #f0ebe1 0%, #b5aa96 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.02em;
+        }
+
+        .header-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+        .toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+        /* セグメントボタン */
+        .seg-group {
+            display: flex;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 3px;
+            gap: 2px;
+        }
+        .seg {
+            background: transparent;
+            color: var(--text-muted);
+            border: none;
+            padding: 7px 18px;
+            border-radius: 7px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+        .seg.active {
+            background: linear-gradient(135deg, var(--accent), var(--accent-2));
+            color: #1a1712;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+        }
+        .seg:hover:not(.active) { background: var(--surface-hover); color: var(--text); }
+
+        select {
+            background: var(--surface);
+            color: var(--text);
+            border: 1px solid var(--border);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 12px;
+            font-family: inherit;
+        }
+        select option {
+            color: #1c1a16;
+            background: #f3ede2;
+        }
+        select option:checked {
+            color: #1c1a16;
+            background: #d7c295;
+        }
+
+        /* ===== サイトリンク ===== */
+        .site-links {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .site-link {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 18px;
+            border-radius: 14px;
+            text-decoration: none;
+            background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+            color: var(--text);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-left: 3px solid color-mix(in srgb, var(--c) 75%, #ffffff 25%);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+        }
+        .site-link::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0) 60%);
+            pointer-events: none;
+        }
+        .site-link:hover {
+            transform: translateY(-3px);
+            border-color: var(--border-hover);
+            box-shadow: 0 12px 26px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.08);
+        }
+        .site-link .site-name { display: block; font-size: 14px; font-weight: 700; letter-spacing: 0.02em; }
+        .site-link .site-url  { display: block; font-size: 10px; opacity: 0.72; margin-top: 3px; font-weight: 500; }
+        .site-link::after { content: '→'; font-size: 14px; opacity: 0.7; flex-shrink: 0; margin-left: 8px; }
+
+        @media (max-width: 700px) { .site-links { grid-template-columns: repeat(2, 1fr); } }
+
+        /* ===== AIパネル ===== */
+        .ai-panel {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            padding: 14px 18px;
+            margin-bottom: 24px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--text-dim);
+            backdrop-filter: blur(8px);
+        }
+        .ai-panel b { color: var(--text); }
+        .ai-panel.error { border-left-color: #ef4444; }
+
+        /* ===== セクション共通 ===== */
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 22px 24px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(8px);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 10px 28px rgba(0,0,0,0.22);
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Noto Serif JP', serif;
+        }
+        .section-title::before {
+            content: '';
+            display: block;
+            width: 3px;
+            height: 12px;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, var(--accent), var(--accent-2));
+        }
+
+        /* ===== チャートグリッド ===== */
+        .chart-grid { display: grid; grid-template-columns: 1fr; grid-template-rows: 420px 56px; gap: 10px; }
+
+        .x-ctrl {
+            grid-column: 1 / -1;
+            background: rgba(0,0,0,0.25);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0 16px;
+        }
+        .x-reset {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            border-radius: 6px;
+            padding: 5px 12px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            font-family: inherit;
+            transition: all 0.15s;
+        }
+        .x-reset:hover {
+            background: var(--surface-hover);
+            color: var(--text);
+            border-color: var(--border-hover);
+        }
+
+        .dual-range { position: relative; flex: 1; height: 20px; display: flex; align-items: center; }
+        .dual-range input[type="range"] {
+            position: absolute; width: 100%; height: 0;
+            background: none; pointer-events: none;
+            appearance: none; -webkit-appearance: none;
+        }
+        .dual-range input[type="range"]::-webkit-slider-thumb {
+            pointer-events: all; -webkit-appearance: none;
+            width: 16px; height: 16px; border-radius: 50%;
+            background: var(--accent); border: 2px solid #f0ebe1;
+            cursor: pointer; box-shadow: 0 0 0 2px rgba(183,155,91,0.2);
+        }
+        .dual-range input[type="range"]::-moz-range-thumb {
+            pointer-events: all; width: 16px; height: 16px; border-radius: 50%;
+            background: var(--accent); border: 2px solid #f0ebe1;
+            cursor: pointer; box-shadow: 0 0 0 2px rgba(183,155,91,0.2);
+        }
+        .range-track { position: absolute; width: 100%; height: 3px; background: rgba(255,255,255,0.08); border-radius: 2px; }
+        .range-fill  { position: absolute; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 2px; }
+
+        .chart-wrap {
+            position: relative;
+            background: rgba(0,0,0,0.2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+        .chart-wrap::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(80% 120% at 12% 8%, rgba(183,155,91,0.10), transparent 60%),
+                linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.05));
+            pointer-events: none;
+            z-index: 0;
+        }
+        .chart-wrap canvas { position: relative; z-index: 1; }
+
+        .loading-overlay {
+            display: none; position: absolute; inset: 0;
+            background: rgba(6,13,26,0.8);
+            align-items: center; justify-content: center;
+            flex-direction: column; gap: 10px;
+            border-radius: 12px; z-index: 10;
+            backdrop-filter: blur(4px);
+        }
+        .loading-overlay.show { display: flex; }
+        .loading-text { font-size: 13px; color: var(--text-muted); }
+
+        /* ===== ツイートカード ===== */
+        .tweet-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+        .tweet-fetched { font-size: 11px; color: var(--text-muted); }
+
+        .tweet-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+
+        .tweet-card {
+            position: relative;
+            background: rgba(255,255,255,0.03);
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid var(--border);
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+        .tweet-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 60%);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .tweet-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 32px rgba(0,0,0,0.48), inset 0 1px 0 rgba(255,255,255,0.06);
+            border-color: var(--border-hover);
+        }
+        .tweet-card:hover::before { opacity: 1; }
+
+        .tweet-card .card-header { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+        .tweet-card .tag {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 20px;
+            color: #fff;
+            letter-spacing: 0.02em;
+        }
+
+        .rank-badge { font-size: 15px; font-weight: 700; }
+        .rank-other { font-size: 12px; color: rgba(255,255,255,0.2); font-weight: 600; }
+
+        .hot-badge {
+            font-size: 10px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #7f2f2f, #a05b3a);
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 20px;
+            letter-spacing: 0.02em;
+        }
+
+        .tweet-card .author-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+        .tweet-card .avatar { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: rgba(255,255,255,0.08); border: 1px solid var(--border); }
+        .tweet-card .author-info { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+        .tweet-card .author-name { font-size: 13px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .tweet-card .author-handle { font-size: 11px; color: var(--text-muted); }
+
+        .likes-big { margin-left: auto; color: #d5a97a; font-weight: 700; white-space: nowrap; flex-shrink: 0; line-height: 1; text-align: right; }
+        .likes-big .likes-num { font-size: 20px; display: block; }
+        .likes-big .likes-label { font-size: 10px; opacity: 0.7; }
+
+        .tweet-card .text { font-size: 13px; line-height: 1.65; color: #cbd5e1; margin-bottom: 10px; word-break: break-word; }
+
+        .tweet-card .images { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+        .tweet-card .images img { width: calc(50% - 2px); border-radius: 8px; object-fit: cover; max-height: 180px; cursor: zoom-in; transition: opacity 0.15s; }
+        .tweet-card .images img:hover { opacity: 0.85; }
+        .tweet-card .images img:only-child { width: 100%; }
+
+        .tweet-card .meta { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; }
+        .tweet-card .meta::before { content: '🕐'; font-size: 10px; }
+
+        /* フィルタータブ */
+        .tweet-filter { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+        .filter-tab {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+        .filter-tab:hover:not(.active) { background: var(--surface-hover); color: var(--text); border-color: var(--border-hover); }
+        .filter-tab.active { color: #fff; border-color: transparent; box-shadow: 0 0 10px rgba(255,255,255,0.1); }
+
+        .tweet-no-data { font-size: 13px; color: var(--text-muted); padding: 20px 0; text-align: center; }
+
+        .image-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.82);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 28px;
+            z-index: 1000;
+            backdrop-filter: blur(3px);
+        }
+        .image-modal.show { display: flex; }
+        .image-modal img {
+            max-width: min(1100px, 95vw);
+            max-height: 88vh;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.22);
+            box-shadow: 0 24px 60px rgba(0,0,0,0.55);
+            object-fit: contain;
+            background: #0f1113;
+        }
+        .image-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(20,20,20,0.75);
+            color: #fff;
+            font-size: 24px;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .image-modal-close:hover { border-color: var(--border-hover); }
+
+        /* レスポンシブ */
+        @media (max-width: 640px) {
+            body { padding: 12px 10px; }
+            .header-title { font-size: 17px; }
+            .chart-grid { grid-template-columns: 1fr; grid-template-rows: 300px 52px; gap: 6px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ヘッダー -->
+    <div class="header">
+        <div class="header-left">
+            <div class="header-icon">📈</div>
+            <div>
+                <h1 class="header-title">オリパトレンド</h1>
+                <div class="header-sub">2025/11〜 | 検索トレンド &amp; 当選報告</div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="seg-group">
+                <button id="btn-weekly" class="seg active" onclick="loadAllDaily()">全期間</button>
+                <button id="btn-daily"  class="seg"        onclick="onDailyClick()">月別</button>
+            </div>
+            <select id="month-select" style="display:none" onchange="loadMonthly()">
+                <option value="">月を選択</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- サイトリンク -->
+    <div class="site-links">
+        <a class="site-link" href="https://oripa.clove.jp/oripa/All" target="_blank" rel="noopener" style="--c:#f43f5e"><span><span class="site-name">Clove</span><span class="site-url">oripa.clove.jp</span></span></a>
+        <a class="site-link" href="https://orikuji.com/"             target="_blank" rel="noopener" style="--c:#f59e0b"><span><span class="site-name">オリくじ</span><span class="site-url">orikuji.com</span></span></a>
+        <a class="site-link" href="https://dopa-game.jp/"            target="_blank" rel="noopener" style="--c:#10b981"><span><span class="site-name">DOPA</span><span class="site-url">dopa-game.jp</span></span></a>
+        <a class="site-link" href="https://oripaone.jp/"             target="_blank" rel="noopener" style="--c:#3b82f6"><span><span class="site-name">オリパワン</span><span class="site-url">oripaone.jp</span></span></a>
+        <a class="site-link" href="https://japan-toreca.com/"        target="_blank" rel="noopener" style="--c:#8b5cf6"><span><span class="site-name">日本トレカセンター</span><span class="site-url">japan-toreca.com</span></span></a>
+    </div>
+
+    <!-- AIパネル -->
+    <div id="ai-news" class="ai-panel">データをロードしています...</div>
+
+    <!-- メインチャート -->
+    <div class="section">
+        <div class="section-title">検索トレンド</div>
+        <div class="chart-grid">
+            <div class="chart-wrap">
+                <canvas id="mainChart"></canvas>
+                <div class="loading-overlay" id="loading-overlay">
+                    <span class="loading-text">読み込み中...</span>
+                </div>
+            </div>
+            <div class="x-ctrl">
+                <button class="x-reset" onclick="resetX()">全表示</button>
+                <div class="dual-range">
+                    <div class="range-track"><div class="range-fill" id="range-fill"></div></div>
+                    <input type="range" id="x-start" min="0" max="100" value="0"   oninput="onDualRange('start')">
+                    <input type="range" id="x-end"   min="0" max="100" value="100" oninput="onDualRange('end')">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 棒グラフ -->
+    <div class="section">
+        <div class="section-title">平均スコアランキング（表示期間）</div>
+        <div style="position:relative; height:175px;">
+            <canvas id="barChart"></canvas>
+        </div>
+    </div>
+
+    <!-- X 当選報告ポスト -->
+    <div class="section">
+        <div class="tweet-header">
+            <div class="section-title" style="margin:0;">X 当選報告ポスト</div>
+            <span id="tweet-fetched" class="tweet-fetched"></span>
+        </div>
+        <div id="tweet-filter" class="tweet-filter"></div>
+        <div id="tweet-cards" class="tweet-cards"></div>
+    </div>
+
+</div>
+
+<div id="image-modal" class="image-modal" aria-hidden="true">
+    <button id="image-modal-close" class="image-modal-close" aria-label="Close image">&times;</button>
+    <img id="image-modal-img" src="" alt="">
+</div>
+
+<script>
+let chart;
+let barChart;
+let currentData = null;
+let isDaily = false;
+
+const siteColors = {
+    "Clove": "#f43f5e", "オリパワン": "#3b82f6",
+    "DOPA": "#10b981", "オリくじ": "#f59e0b", "日本トレカセンター": "#8b5cf6"
+};
+
+const SITE_ORDER = ["Clove", "オリくじ", "DOPA", "オリパワン", "日本トレカセンター"];
+const TWEET_TAG_ORDER = ["#Clove当選報告", "#オリくじ当選報告", "#DOPA当選報告", "#オリパワン当選報告", "#日本トレカセンター当選報告"];
+
+const chartTheme = {
+    tick: '#a99879',
+    gridMajor: 'rgba(226,198,139,0.12)',
+    gridMinor: 'rgba(255,255,255,0.035)',
+    axisBorder: 'rgba(226,198,139,0.28)',
+    legend: '#c9bda6',
+    tooltipBg: 'rgba(12,14,18,0.96)',
+    tooltipBorder: 'rgba(226,198,139,0.34)',
+    tooltipTitle: '#d6c8ae',
+    tooltipText: '#f2eadc'
+};
+
+function hexToRgba(hex, alpha) {
+    const raw = String(hex || '').replace('#', '');
+    if (raw.length !== 6) return `rgba(100,116,139,${alpha})`;
+    const r = parseInt(raw.slice(0, 2), 16);
+    const g = parseInt(raw.slice(2, 4), 16);
+    const b = parseInt(raw.slice(4, 6), 16);
+    return `rgba(${r},${g},${b},${alpha})`;
+}
+
+const luxuryChartBg = {
+    id: 'luxuryChartBg',
+    beforeDraw(chart) {
+        const { ctx, chartArea } = chart;
+        if (!chartArea) return;
+        const { left, top, width, height } = chartArea;
+
+        ctx.save();
+        const base = ctx.createLinearGradient(0, top, 0, top + height);
+        base.addColorStop(0, 'rgba(22,24,28,0.82)');
+        base.addColorStop(0.62, 'rgba(14,16,20,0.68)');
+        base.addColorStop(1, 'rgba(10,12,15,0.84)');
+        ctx.fillStyle = base;
+        ctx.fillRect(left, top, width, height);
+
+        const glow = ctx.createRadialGradient(
+            left + width * 0.16, top + height * 0.24, 8,
+            left + width * 0.16, top + height * 0.24, width * 0.86
+        );
+        glow.addColorStop(0, 'rgba(183,155,91,0.10)');
+        glow.addColorStop(1, 'rgba(183,155,91,0)');
+        ctx.fillStyle = glow;
+        ctx.fillRect(left, top, width, height);
+        ctx.restore();
+    }
+};
+
+function sortSites(sites) {
+    return [...sites].sort((a, b) => {
+        const ai = SITE_ORDER.indexOf(a);
+        const bi = SITE_ORDER.indexOf(b);
+        return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+    });
+}
+
+// ---- ユーティリティ ----
+
+function setLoading(on) {
+    document.getElementById('loading-overlay').classList.toggle('show', on);
+}
+
+function setError(msg) {
+    const el = document.getElementById('ai-news');
+    el.className = 'ai-panel error';
+    el.innerHTML = `<b>⚠ エラー:</b> ${msg}`;
+}
+
+function resetX() {
+    document.getElementById('x-start').value = 0;
+    document.getElementById('x-end').value   = 100;
+    updateRangeFill();
+    draw();
+}
+
+function updateRangeFill() {
+    const s = parseInt(document.getElementById('x-start').value);
+    const e = parseInt(document.getElementById('x-end').value);
+    const fill = document.getElementById('range-fill');
+    fill.style.left  = s + '%';
+    fill.style.width = (e - s) + '%';
+}
+
+function onDualRange(which) {
+    let s = parseInt(document.getElementById('x-start').value);
+    let e = parseInt(document.getElementById('x-end').value);
+    const MIN_GAP = 5;
+    if (s > e - MIN_GAP) {
+        if (which === 'start') { s = e - MIN_GAP; document.getElementById('x-start').value = s; }
+        else                   { e = s + MIN_GAP; document.getElementById('x-end').value   = e; }
+    }
+    updateRangeFill();
+    draw();
+}
+
+
+// ---- UI 切り替え ----
+
+function onDailyClick() {
+    document.getElementById('btn-weekly').classList.remove('active');
+    document.getElementById('btn-daily').classList.add('active');
+    document.getElementById('month-select').style.display = '';
+}
+
+// ---- データ読み込み ----
+
+async function init() {
+    try {
+        const res = await fetch('available_months.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const months = await res.json();
+        const select = document.getElementById('month-select');
+        months.forEach(m => {
+            const [y, mm] = m.split('_');
+            const opt = document.createElement('option');
+            opt.value = m;
+            opt.textContent = `${y}年 ${parseInt(mm)}月`;
+            select.appendChild(opt);
+        });
+        loadAllDaily();
+    } catch (e) {
+        setError("目次ファイル(available_months.json)がありません。Pythonを実行してください。");
+    }
+}
+
+async function loadAllDaily() {
+    isDaily = true;
+    document.getElementById('btn-weekly').classList.add('active');
+    document.getElementById('btn-daily').classList.remove('active');
+    document.getElementById('month-select').style.display = 'none';
+    document.getElementById('month-select').value = '';
+    document.getElementById('x-start').value = 0;
+    document.getElementById('x-end').value   = 100;
+    updateRangeFill();
+    document.getElementById('ai-news').className = 'ai-panel';
+
+    setLoading(true);
+    try {
+        const res = await fetch('available_months.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const months = await res.json();
+        const sorted = [...months].reverse();
+        const jsons = await Promise.all(
+            sorted.map(m => fetch(`trends_${m}.json`).then(r => {
+                if (!r.ok) throw new Error(`${m}: HTTP ${r.status}`);
+                return r.json();
+            }))
+        );
+        const merged = {};
+        jsons.forEach(json => {
+            const data = json.daily;
+            Object.keys(data).forEach(kw => {
+                if (!merged[kw]) merged[kw] = {};
+                Object.assign(merged[kw], data[kw]);
+            });
+        });
+        currentData = merged;
+        draw(true);
+    } catch (e) {
+        setError(`全期間データの読み込みに失敗しました (${e.message})`);
+    } finally {
+        setLoading(false);
+    }
+}
+
+async function loadMaster() {
+    isDaily = false;
+    document.getElementById('btn-weekly').classList.add('active');
+    document.getElementById('btn-daily').classList.remove('active');
+    document.getElementById('month-select').style.display = 'none';
+    document.getElementById('month-select').value = '';
+    document.getElementById('x-start').value = 0;
+    document.getElementById('x-end').value   = 100;
+    updateRangeFill();
+    document.getElementById('ai-news').className = 'ai-panel';
+    setLoading(true);
+    try {
+        const res = await fetch('trends_master.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const json = await res.json();
+        currentData = json.weekly;
+        draw(true);
+    } catch (e) {
+        setError(`マスターデータの読み込みに失敗しました (${e.message})`);
+    } finally {
+        setLoading(false);
+    }
+}
+
+async function loadMonthly() {
+    const val = document.getElementById('month-select').value;
+    if (!val) return;
+    isDaily = true;
+    document.getElementById('x-start').value = 0;
+    document.getElementById('x-end').value   = 100;
+    updateRangeFill();
+    document.getElementById('ai-news').className = 'ai-panel';
+    setLoading(true);
+    try {
+        const res = await fetch(`trends_${val}.json`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const json = await res.json();
+        currentData = json.daily;
+        draw(true);
+    } catch (e) {
+        setError(`月別データの読み込みに失敗しました (${e.message})`);
+    } finally {
+        setLoading(false);
+    }
+}
+
+// ---- 描画 ----
+
+function draw(forceRecreate = false) {
+    if (!currentData) return;
+
+    const sites = sortSites(Object.keys(currentData));
+    const times = Object.keys(currentData[sites[0]]).map(t => parseInt(t)).sort((a, b) => a - b);
+    const xStart = parseInt(document.getElementById('x-start').value);
+    const xEnd   = parseInt(document.getElementById('x-end').value);
+    const startIdx = Math.floor((times.length - 1) * (xStart / 100));
+    const endIdx   = Math.ceil((times.length - 1)  * (xEnd   / 100));
+    const finalTimes = times.slice(startIdx, endIdx + 1);
+    const yMax = 100;
+
+    const labels = finalTimes.map(t => {
+        const d = new Date(t);
+        return `${d.getMonth() + 1}/${d.getDate()}`;
+    });
+
+    const datasets = sites.map(name => ({
+        label: name,
+        data: finalTimes.map(t => currentData[name][t.toString()]),
+        borderColor: siteColors[name] || '#64748b',
+        backgroundColor: (ctx) => {
+            const base = siteColors[name] || '#64748b';
+            const chartArea = ctx.chart.chartArea;
+            if (!chartArea) return hexToRgba(base, 0.18);
+            const grad = ctx.chart.ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+            grad.addColorStop(0, hexToRgba(base, 0.32));
+            grad.addColorStop(0.55, hexToRgba(base, 0.12));
+            grad.addColorStop(1, hexToRgba(base, 0.00));
+            return grad;
+        },
+        fill: true,
+        tension: 0.34,
+        pointRadius: 2.4,
+        pointHoverRadius: 6,
+        pointBackgroundColor: '#efe7d8',
+        pointBorderColor: siteColors[name] || '#64748b',
+        pointBorderWidth: 1.8,
+        borderWidth: 3
+    }));
+
+    if (chart && !forceRecreate) {
+        chart.data.labels = labels;
+        chart.data.datasets.forEach((ds, i) => { ds.data = datasets[i].data; });
+        chart.options.scales.y.max = yMax;
+        chart.update('none');
+    } else {
+        if (chart) chart.destroy();
+        chart = new Chart(document.getElementById('mainChart'), {
+            plugins: [luxuryChartBg],
+            type: 'line',
+            data: { labels, datasets },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                animation: false,
+                interaction: { mode: 'index', intersect: false },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: yMax,
+                        border: { color: chartTheme.axisBorder },
+                        grid: { color: chartTheme.gridMinor },
+                        ticks: { color: chartTheme.tick, font: { size: 11, weight: 600 } }
+                    },
+                    x: {
+                        border: { color: chartTheme.axisBorder },
+                        grid: { color: chartTheme.gridMajor, lineWidth: 0.6, drawTicks: false },
+                        ticks: {
+                            color: chartTheme.tick,
+                            font: { size: 11, weight: 600 },
+                            maxTicksLimit: isDaily ? 15 : 10,
+                            maxRotation: 45,
+                            minRotation: 0
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: chartTheme.legend,
+                            usePointStyle: true,
+                            pointStyle: 'circle',
+                            pointStyleWidth: 12,
+                            padding: 20,
+                            font: { size: 12, weight: 600 }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: chartTheme.tooltipBg,
+                        borderColor: chartTheme.tooltipBorder,
+                        borderWidth: 1,
+                        titleColor: chartTheme.tooltipTitle,
+                        bodyColor: chartTheme.tooltipText,
+                        padding: 12,
+                        cornerRadius: 12,
+                        callbacks: {
+                            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y}`
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    const lastT = finalTimes[finalTimes.length - 1];
+    const top = sites.map(s => ({ n: s, v: currentData[s][lastT] })).sort((a, b) => b.v - a.v)[0];
+    const panel = document.getElementById('ai-news');
+    panel.className = 'ai-panel';
+    panel.innerHTML = `<b>【マーケット解析】</b> ${isDaily ? '全期間' : '月別'}表示。現在 <b>${top.n}</b> がスコア <b>${top.v}</b> でマーケットを牽引しています。`;
+
+    drawBar(sites, finalTimes);
+}
+
+function drawBar(sites, finalTimes) {
+    const ranked = sites.map(name => {
+        const vals = finalTimes.map(t => currentData[name][t.toString()] ?? 0);
+        const avg = Math.round(vals.reduce((a, b) => a + b, 0) / vals.length);
+        return { name, avg };
+    }).sort((a, b) => b.avg - a.avg);
+
+    const labels   = ranked.map(r => r.name);
+    const values   = ranked.map(r => r.avg);
+    const bgColors = ranked.map(r => hexToRgba(siteColors[r.name] || '#64748b', 0.58));
+    const bdColors = ranked.map(r => siteColors[r.name] || '#64748b');
+
+    if (barChart) {
+        barChart.data.labels                      = labels;
+        barChart.data.datasets[0].data            = values;
+        barChart.data.datasets[0].backgroundColor = bgColors;
+        barChart.data.datasets[0].borderColor     = bdColors;
+        barChart.update('none');
+    } else {
+        barChart = new Chart(document.getElementById('barChart'), {
+            plugins: [luxuryChartBg],
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [{
+                    data: values,
+                    backgroundColor: bgColors,
+                    borderColor: bdColors,
+                    borderWidth: 1.2,
+                    borderRadius: 7,
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                animation: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: chartTheme.tooltipBg,
+                        borderColor: chartTheme.tooltipBorder,
+                        borderWidth: 1,
+                        titleColor: chartTheme.tooltipTitle,
+                        bodyColor: chartTheme.tooltipText,
+                        cornerRadius: 12,
+                        callbacks: { label: ctx => ` 平均スコア: ${ctx.parsed.x}` }
+                    }
+                },
+                scales: {
+                    x: {
+                        min: 0,
+                        max: 100,
+                        border: { color: chartTheme.axisBorder },
+                        grid: { color: chartTheme.gridMinor },
+                        ticks: { color: chartTheme.tick, font: { size: 11, weight: 600 } }
+                    },
+                    y: {
+                        border: { color: chartTheme.axisBorder },
+                        grid: { display: false },
+                        ticks: { color: chartTheme.legend, font: { weight: '600', size: 12 } }
+                    }
+                }
+            }
+        });
+    }
+}
+
+// ---- X ポスト表示 ----
+
+let allPosts = [];
+let currentFilter = 'all';
+const HOT_THRESHOLD = 30;
+let imageModalEl = null;
+let imageModalImgEl = null;
+
+async function loadTweets() {
+    try {
+        const res = await fetch('tweets.json');
+        if (!res.ok) {
+            document.getElementById('tweet-cards').innerHTML =
+                '<div class="tweet-no-data">tweets.json が見つかりません。fetch_tweets.py を実行してください。</div>';
+            return;
+        }
+        const data = await res.json();
+        renderTweets(data);
+    } catch (e) {
+        console.error('loadTweets error:', e);
+        document.getElementById('tweet-cards').innerHTML =
+            `<div class="tweet-no-data">読み込みエラー: ${e.message}</div>`;
+    }
+}
+
+function renderTweets(data) {
+    const hashtags = data.hashtags || {};
+    const keys = Object.keys(hashtags);
+    if (keys.length === 0) return;
+
+    if (data.fetched_at) {
+        const d = new Date(data.fetched_at);
+        document.getElementById('tweet-fetched').textContent =
+            `取得: ${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+    }
+
+    allPosts = [];
+    keys.forEach(tag => {
+        const posts = hashtags[tag].latest || [];
+        const color = hashtags[tag].color || '#64748b';
+        posts.forEach(p => allPosts.push({ tag, color, post: p }));
+    });
+    allPosts.sort((a, b) => b.post.likes - a.post.likes);
+
+    currentFilter = 'all';
+    buildFilterTabs(keys, hashtags);
+    renderFilteredPosts();
+}
+
+function buildFilterTabs(keys, hashtags) {
+    const container = document.getElementById('tweet-filter');
+    container.innerHTML = '';
+
+    const makeTab = (label, value, color) => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-tab' + (currentFilter === value ? ' active' : '');
+        btn.textContent = label;
+        if (color && currentFilter === value) btn.style.background = color;
+        btn.onclick = () => {
+            currentFilter = value;
+            container.querySelectorAll('.filter-tab').forEach(t => {
+                t.classList.remove('active');
+                t.style.background = '';
+            });
+            btn.classList.add('active');
+            if (color) btn.style.background = color;
+            renderFilteredPosts();
+        };
+        return btn;
+    };
+
+    container.appendChild(makeTab('すべて', 'all', null));
+    const sortedKeys = [...keys].sort((a, b) => {
+        const ai = TWEET_TAG_ORDER.indexOf(a);
+        const bi = TWEET_TAG_ORDER.indexOf(b);
+        return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+    });
+    sortedKeys.forEach(tag => {
+        container.appendChild(makeTab(tag, tag, hashtags[tag].color));
+    });
+}
+
+function renderFilteredPosts() {
+    const container = document.getElementById('tweet-cards');
+    container.innerHTML = '';
+
+    const filtered = currentFilter === 'all'
+        ? allPosts
+        : allPosts.filter(item => item.tag === currentFilter);
+
+    if (filtered.length === 0) {
+        container.innerHTML = '<div class="tweet-no-data">ポストがありません。</div>';
+        return;
+    }
+
+    filtered.forEach(({ tag, color, post: p }, idx) => {
+        const rank = idx + 1;
+        const rankLabel = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+        const rankClass = rank <= 3 ? '' : 'rank-other';
+        const hotBadge = p.likes >= HOT_THRESHOLD ? '<span class="hot-badge">🔥 HOT</span>' : '';
+
+        const d = p.created_at ? new Date(p.created_at) : null;
+        const dateStr = d
+            ? `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`
+            : '';
+        const url = `https://x.com/${p.author_username}/status/${p.id}`;
+
+        const card = document.createElement('a');
+        card.className = 'tweet-card';
+        card.href = url;
+        card.target = '_blank';
+        card.rel = 'noopener';
+
+        const avatarHtml = p.author_image
+            ? `<img class="avatar" src="${p.author_image}" alt="" loading="lazy" onerror="this.style.display='none'">`
+            : `<div class="avatar"></div>`;
+        const imagesHtml = (p.images && p.images.length)
+            ? `<div class="images">${p.images.map(src =>
+                `<img class="tweet-image" src="${src}" data-full="${escapeHtml(src)}" alt="" loading="lazy"
+                      onerror="this.style.display='none'">`
+              ).join('')}</div>`
+            : '';
+
+        card.innerHTML = `
+            <div class="card-header">
+                <span class="rank-badge ${rankClass}">${rankLabel}</span>
+                <span class="tag" style="background:${color};">${tag}</span>
+                ${hotBadge}
+            </div>
+            <div class="author-row">
+                ${avatarHtml}
+                <div class="author-info">
+                    <span class="author-name">${escapeHtml(p.author_name)}</span>
+                    <span class="author-handle">@${escapeHtml(p.author_username)}</span>
+                </div>
+                <div class="likes-big">
+                    <span class="likes-num">${p.likes.toLocaleString()}</span>
+                    <span class="likes-label">♡ いいね</span>
+                </div>
+            </div>
+            <div class="text">${escapeHtml(p.text)}</div>
+            ${imagesHtml}
+            <div class="meta">${dateStr}</div>`;
+
+        container.appendChild(card);
+    });
+}
+
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+
+function openImageModal(src) {
+    if (!imageModalEl || !imageModalImgEl) return;
+    imageModalImgEl.src = src;
+    imageModalEl.classList.add('show');
+    imageModalEl.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeImageModal() {
+    if (!imageModalEl || !imageModalImgEl) return;
+    imageModalEl.classList.remove('show');
+    imageModalEl.setAttribute('aria-hidden', 'true');
+    imageModalImgEl.src = '';
+    document.body.style.overflow = '';
+}
+
+function initImageModal() {
+    imageModalEl = document.getElementById('image-modal');
+    imageModalImgEl = document.getElementById('image-modal-img');
+    const closeBtn = document.getElementById('image-modal-close');
+    const cards = document.getElementById('tweet-cards');
+    if (!imageModalEl || !imageModalImgEl || !closeBtn || !cards) return;
+
+    cards.addEventListener('click', (event) => {
+        const img = event.target.closest('.tweet-image');
+        if (!img) return;
+        event.preventDefault();
+        event.stopPropagation();
+        openImageModal(img.dataset.full || img.src);
+    });
+
+    closeBtn.addEventListener('click', closeImageModal);
+    imageModalEl.addEventListener('click', (event) => {
+        if (event.target === imageModalEl) closeImageModal();
+    });
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeImageModal();
+    });
+}
+
+window.onload = () => { init(); loadTweets(); initImageModal(); };
+</script>
+</body>
+</html>
