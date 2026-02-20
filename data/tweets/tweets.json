@@ -1,11 +1,24 @@
 {
-    "fetched_at": "2026-02-20T20:15:04.088663+00:00",
+    "fetched_at": "2026-02-20T20:30:04.143933+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024944051280322722",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウex\nラティアスex\nブースターが当たりました！\n\nお金使ってるけど、カードとして当たるから遊べてる😊\nありがとうございます♪\n\n#オリパワン当選報告 https://t.co/3LzeU3xlZO",
+                    "author_name": "やみつき",
+                    "author_username": "yamizuki0321",
+                    "created_at": "2026-02-21T05:27:38+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBoL4IVbkAAAEW7.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -14,8 +27,21 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2024943034941800702",
+                    "text": "買うの忘れてたので、DOPAでとりあえず1BOXだけ送りました\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/EHAnry3Q5c",
+                    "author_name": "風音",
+                    "author_username": "kirikachas",
+                    "created_at": "2026-02-21T05:23:35+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBoK9RabgAAm2kI.jpg"
+                    ]
+                }
+            ]
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
