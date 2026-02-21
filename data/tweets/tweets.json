@@ -1,11 +1,24 @@
 {
-    "fetched_at": "2026-02-21T16:30:03.655779+00:00",
+    "fetched_at": "2026-02-21T16:45:03.576463+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2025250123102781498",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nバトルパートナーズのBOXが\n当たりました！\n\n爆アドYes‼︎👍\n\n#オリパワン当選報告 https://t.co/usqsWtUc4Z",
+                    "author_name": "グレート",
+                    "author_username": "X51110360",
+                    "created_at": "2026-02-22T01:43:51+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBsiQEaaMAAsxju.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -14,66 +27,42 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 5,
+            "count": 3,
             "posts": [
                 {
-                    "id": "2025244497853169812",
-                    "text": "ゼイユ！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/LTAIMYeyNz",
+                    "id": "2025247669858570288",
+                    "text": "何かのPSA\nゼクロム！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/sHzWGDjFcE",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T01:21:30+09:00",
+                    "created_at": "2026-02-22T01:34:06+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsdIUaasAAvrOo.jpg"
+                        "https://pbs.twimg.com/media/HBsgBDTakAAVRqg.jpg"
                     ]
                 },
                 {
-                    "id": "2025244125369696706",
-                    "text": "スカイレジェンドボックス！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/WPNaJJMiaV",
+                    "id": "2025247407953600833",
+                    "text": "何かのPSA\nサンダー！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/9ZvAEiow7X",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T01:20:01+09:00",
+                    "created_at": "2026-02-22T01:33:03+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsczAlboAAi3O_.jpg"
+                        "https://pbs.twimg.com/media/HBsfxvJbwAAT6FH.jpg"
                     ]
                 },
                 {
-                    "id": "2025243923506245876",
-                    "text": "リザードン！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/fxj9kiGvKp",
+                    "id": "2025247119913922960",
+                    "text": "二万円の福袋！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/i9CQKlAnir",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T01:19:13+09:00",
+                    "created_at": "2026-02-22T01:31:55+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBscnAja4AA89pV.jpg"
-                    ]
-                },
-                {
-                    "id": "2025243630458556641",
-                    "text": "ゼクロム\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/Ddfk3AOOPr",
-                    "author_name": "ten",
-                    "author_username": "tentensup",
-                    "created_at": "2026-02-22T01:18:03+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBscV7SbgAApBgJ.jpg"
-                    ]
-                },
-                {
-                    "id": "2025243244058345570",
-                    "text": "グレイシア！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/Z7UMAUEG2r",
-                    "author_name": "ten",
-                    "author_username": "tentensup",
-                    "created_at": "2026-02-22T01:16:31+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsb_eMbkAEQWnC.jpg"
+                        "https://pbs.twimg.com/media/HBsfhHGbgAUm17T.jpg"
                     ]
                 }
             ]
