@@ -1,24 +1,11 @@
 {
-    "fetched_at": "2026-02-21T10:00:03.548372+00:00",
+    "fetched_at": "2026-02-21T10:15:03.548112+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025148213326741929",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nナンジャモが当たりました！\n\n#オリパワン当選報告 https://t.co/aXXA9DtWVy",
-                    "author_name": "TKM",
-                    "author_username": "WL4tKuvw5l66761",
-                    "created_at": "2026-02-21T18:58:54+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrFkPibgAU_tJk.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -27,93 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 7,
-            "posts": [
-                {
-                    "id": "2025148372454441218",
-                    "text": "レックウザあざす！\n#DOPAオリパ\n#DOPA当選報告 https://t.co/cOtVTZ24NB",
-                    "author_name": "ToriGara",
-                    "author_username": "torigara324",
-                    "created_at": "2026-02-21T18:59:32+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrFtaMa8AAgGsx.jpg"
-                    ]
-                },
-                {
-                    "id": "2025148039879688307",
-                    "text": "久しぶりのDOPA\n\n10連で当たりました！\n少し遊ぶ程度でやらないとね😊\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/1ArVwqMCws",
-                    "author_name": "BULL Market",
-                    "author_username": "derby_king03",
-                    "created_at": "2026-02-21T18:58:12+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrFaO8bMAArWxF.jpg"
-                    ]
-                },
-                {
-                    "id": "2025146790274818149",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n爆アドキターーーーーーーー！！！ https://t.co/asmrkbla9T",
-                    "author_name": "taiju",
-                    "author_username": "taiju0810",
-                    "created_at": "2026-02-21T18:53:14+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrERF8asAAm7-w.jpg"
-                    ]
-                },
-                {
-                    "id": "2025146675611009249",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\nパックのみの報告で\n「ルイージピカチュウ」当たれば\nおもしろい✨ https://t.co/s938B1aWM5",
-                    "author_name": "ポカリアス",
-                    "author_username": "z8z49672osaka",
-                    "created_at": "2026-02-21T18:52:47+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrEKI8bgAYO8RL.jpg"
-                    ]
-                },
-                {
-                    "id": "2025146123317641267",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n発送のみのパック到着しました✨\n３０００ポイント当たりますか https://t.co/B8YutcbsM7",
-                    "author_name": "ポカリアス",
-                    "author_username": "z8z49672osaka",
-                    "created_at": "2026-02-21T18:50:35+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrDp6RbkAAxi3W.jpg"
-                    ]
-                },
-                {
-                    "id": "2025145746287378821",
-                    "text": "初黒箱！！\n\n震えるくらいうれしい！\nアクスタ、DOPAカードもうれしい！\n\n本音…あとはルイージだけ🤲\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/rBTpOCowhy",
-                    "author_name": "3BB タクト",
-                    "author_username": "bb1313035",
-                    "created_at": "2026-02-21T18:49:05+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrDUXbbMAAbewx.jpg"
-                    ]
-                },
-                {
-                    "id": "2025145512480153619",
-                    "text": "ミモザ✨\n#DOPAオリパ\n#DOPA当選報告 https://t.co/xB7H9xqgjS",
-                    "author_name": "ぽてち",
-                    "author_username": "kcUFoUb67EsVea2",
-                    "created_at": "2026-02-21T18:48:10+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrDG7qbgAEIErf.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
