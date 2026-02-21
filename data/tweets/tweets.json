@@ -1,164 +1,58 @@
 {
-    "fetched_at": "2026-02-21T04:15:03.470710+00:00",
+    "fetched_at": "2026-02-21T04:30:05.055717+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 9,
+            "count": 3,
             "posts": [
                 {
-                    "id": "2025060857663946942",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\n25thレシラムが当たりました！\n\n#オリパワン当選報告 https://t.co/T85HuLR3wI",
-                    "author_name": "yasu7n",
-                    "author_username": "yasu7n",
-                    "created_at": "2026-02-21T13:11:46+09:00",
+                    "id": "2025063935834206678",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウが当たりました！\n319は楽しい！\n\n#オリパワン当選報告 https://t.co/YiNUMHdFxd",
+                    "author_name": "キム・キムチ",
+                    "author_username": "3939daisuki4545",
+                    "created_at": "2026-02-21T13:24:00+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBp2HXsbgAIr1Zr.jpg"
+                        "https://pbs.twimg.com/media/HBp46g-bIAAInMa.jpg"
                     ]
                 },
                 {
-                    "id": "2025060030819807688",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nシールドマリィとナンジャモのハラバリーが当たりました！\n\n#オリパワン当選報告 https://t.co/P5ppSD9lz9",
-                    "author_name": "えちまろん",
-                    "author_username": "eigahydrangea",
-                    "created_at": "2026-02-21T13:08:29+09:00",
+                    "id": "2025063907153572050",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウexとナンジャモとタロが当たりました！\n\n#オリパワン当選報告 https://t.co/kgq9FmjoMT",
+                    "author_name": "ワッター☆Phantom@萌えサミット",
+                    "author_username": "Phantomwatta",
+                    "created_at": "2026-02-21T13:23:53+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBp1XAeaAAATN2t.jpg"
+                        "https://pbs.twimg.com/media/HBp44vbbgAAk46l.jpg"
                     ]
                 },
                 {
-                    "id": "2025060213976695243",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nルチアのアピール\nミュウツーGX\nビッケ\nピカチュウ×2\nフクオカのピカチュウ\n当たりました！\n\n#オリパワン当選報告 https://t.co/FvoqtrNIcI",
-                    "author_name": "k",
-                    "author_username": "tototo_0615",
-                    "created_at": "2026-02-21T13:09:13+09:00",
+                    "id": "2025061795090891121",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nナミ、ナンジャモ sarが当たりました！\n\n#オリパワン当選報告 https://t.co/MQIdDVhfIb",
+                    "author_name": "山田23",
+                    "author_username": "gAtAaWLFdXivSLn",
+                    "created_at": "2026-02-21T13:15:30+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBp1hvibgAALGxj.jpg"
-                    ]
-                },
-                {
-                    "id": "2025060635235774924",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\n25thレシラムが当たりました！\n\n#オリパワン当選報告",
-                    "author_name": "yasu7n",
-                    "author_username": "yasu7n",
-                    "created_at": "2026-02-21T13:10:53+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": []
-                },
-                {
-                    "id": "2025059841321144817",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nゲンガー＆ミミッキュGXが当たりました！\n\n#オリパワン当選報告 https://t.co/nAbJ8g1t1M",
-                    "author_name": "えちまろん",
-                    "author_username": "eigahydrangea",
-                    "created_at": "2026-02-21T13:07:44+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBp1MGlbgAIPkhz.jpg"
-                    ]
-                },
-                {
-                    "id": "2025059762694750478",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nブラッキーexが当たりました！\n\n#オリパワン当選報告 https://t.co/7O8rrYvcXt",
-                    "author_name": "yasu7n",
-                    "author_username": "yasu7n",
-                    "created_at": "2026-02-21T13:07:25+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBp1HmPaIAAPHAc.jpg"
-                    ]
-                },
-                {
-                    "id": "2025059692968653258",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\n名探偵ピカチュウが当たりました！\nまたすごいの当たりますように☆\n\n#オリパワン当選報告 https://t.co/BN88egwQ6E",
-                    "author_name": "ゆずう",
-                    "author_username": "hSAuZWmbSm2170",
-                    "created_at": "2026-02-21T13:07:09+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBp1ABcbsAAHb_8.jpg"
-                    ]
-                },
-                {
-                    "id": "2025059506800263541",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nブラッキーexが当たりました！\n\n#オリパワン当選報告",
-                    "author_name": "yasu7n",
-                    "author_username": "yasu7n",
-                    "created_at": "2026-02-21T13:06:24+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": []
-                },
-                {
-                    "id": "2025058219534823871",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nリザードンが当たりました！\n\n#オリパワン当選報告 https://t.co/uJ9qZTZKBY",
-                    "author_name": "ニート",
-                    "author_username": "TXMMlCUHupXrKdW",
-                    "created_at": "2026-02-21T13:01:17+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpztgPbAAAWimf.jpg"
+                        "https://pbs.twimg.com/media/HBp29uCbEAAS9V2.jpg"
                     ]
                 }
             ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025058479875260615",
-                    "text": "トレセンありがとう😉👍️\n\n#トレカセンター当選報告 https://t.co/2Rl1ChA6zk",
-                    "author_name": "オリパ初心者🔰",
-                    "author_username": "cjMHJuukrhYZXCd",
-                    "created_at": "2026-02-21T13:02:20+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpz6oUasAAahi5.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025061634407109086",
-                    "text": "届いた！！🔥\n\n #DOPA当選報告 \n #DOPAオリパ \n #dopa3周年おめでとう https://t.co/xGTZMSXQnl",
-                    "author_name": "fffyu",
-                    "author_username": "Hamap227",
-                    "created_at": "2026-02-21T13:14:52+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBp20jPbgAUWqAr.jpg"
-                    ]
-                },
-                {
-                    "id": "2025060288685637843",
-                    "text": "#DOPAオリパ\n#DOPA当選報告 \nポストの作成の仕方が分からない、X始めて1ヶ月ちょっとなので、バトルパートナーズが届きました👍 https://t.co/iFVGdGKkVj",
-                    "author_name": "カルム",
-                    "author_username": "appleteapeacht1",
-                    "created_at": "2026-02-21T13:09:31+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBp1EzibgAEktn4.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
