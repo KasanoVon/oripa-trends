@@ -1,36 +1,11 @@
 {
-    "fetched_at": "2026-02-21T03:45:03.513044+00:00",
+    "fetched_at": "2026-02-21T04:00:03.491219+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025053646673903927",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウプロモが当たりました！\nプレシャスコレクター最高！\n\n#オリパワン当選報告 https://t.co/YcSKEM5Vsm",
-                    "author_name": "へいへいほー",
-                    "author_username": "567wa9chin",
-                    "created_at": "2026-02-21T12:43:07+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpvjx9akAAZPcn.jpg"
-                    ]
-                },
-                {
-                    "id": "2025052960536101161",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nギラティナ、ソルルナが当たりました！\n\n#オリパワン当選報告 https://t.co/qUmHXV6uKr",
-                    "author_name": "りゅう",
-                    "author_username": "b950714",
-                    "created_at": "2026-02-21T12:40:24+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpu7n9bgAMtxGr.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -39,18 +14,30 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 1,
+            "count": 2,
             "posts": [
                 {
-                    "id": "2025050475981422729",
-                    "text": "回収回収\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/QYzlM5BU1w",
-                    "author_name": "りょた🍟🥗",
-                    "author_username": "Ryota_tatata2",
-                    "created_at": "2026-02-21T12:30:31+09:00",
+                    "id": "2025056538772251068",
+                    "text": "ぽこあポケモン予約しよっと\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/Sp8fT3ySq0",
+                    "author_name": "りょ@某MS",
+                    "author_username": "shukkachoseiMS",
+                    "created_at": "2026-02-21T12:54:37+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBpsquNaQAETMLL.jpg"
+                        "https://pbs.twimg.com/media/HBpyMMLbgAExxk6.jpg"
+                    ]
+                },
+                {
+                    "id": "2025055887879274811",
+                    "text": "#DOPAオリパ\n#DOPA当選報告 \nレシラムSAR届きました\nイラスト美しい https://t.co/OwOfQHX4TC",
+                    "author_name": "POPO",
+                    "author_username": "CfeulFA2ga16634",
+                    "created_at": "2026-02-21T12:52:02+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBpxlc9bkAAnRGg.jpg"
                     ]
                 }
             ]
@@ -62,8 +49,21 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2025055663433637995",
+                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【リーリエ】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ https://t.co/8QgZ8GA3RL",
+                    "author_name": "えす",
+                    "author_username": "sspokepokess",
+                    "created_at": "2026-02-21T12:51:08+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBpxZBMbgAANaOD.jpg"
+                    ]
+                }
+            ]
         }
     }
 }
