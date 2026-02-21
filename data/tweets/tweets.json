@@ -1,5 +1,5 @@
 {
-    "fetched_at": "2026-02-21T09:00:03.528278+00:00",
+    "fetched_at": "2026-02-21T09:15:03.560691+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
@@ -7,27 +7,27 @@
             "count": 2,
             "posts": [
                 {
-                    "id": "2025133252613435466",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\n色々当たりました！\n招待コードのせときます！\nPy7NoR\n\n#オリパワン当選報告 https://t.co/13VmcnSZF1",
-                    "author_name": "カス",
-                    "author_username": "1go1e_k",
-                    "created_at": "2026-02-21T17:59:27+09:00",
+                    "id": "2025135164716974103",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nフクオカのピカチュウが当たりました！\n\n#オリパワン当選報告 https://t.co/tyuQGcmdnT",
+                    "author_name": "yzo",
+                    "author_username": "yzoticktack",
+                    "created_at": "2026-02-21T18:07:03+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBq39fvbkAAxtiQ.jpg"
+                        "https://pbs.twimg.com/media/HBq5sdqbgAIpcWm.jpg"
                     ]
                 },
                 {
-                    "id": "2025131254614737163",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\n念願のビクティニとプロモピカチュウが当たりました！\nこれは、嬉しい！！！！！\n\n#オリパワン当選報告 https://t.co/aeCiMsmD0a",
-                    "author_name": "もうもろこし 🤯Part2🤯",
-                    "author_username": "PoKeSuRo2021",
-                    "created_at": "2026-02-21T17:51:30+09:00",
-                    "likes": 1,
+                    "id": "2025134266003456305",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nブルーの探索が当たりました！\n\n#オリパワン当選報告 https://t.co/ER3rRXfpDu",
+                    "author_name": "ちゅうたろう",
+                    "author_username": "sa_td",
+                    "created_at": "2026-02-21T18:03:28+09:00",
+                    "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBq2JO0bgAEE9QC.jpg"
+                        "https://pbs.twimg.com/media/HBq43K4bgAMUquW.jpg"
                     ]
                 }
             ]
@@ -39,18 +39,42 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 1,
+            "count": 3,
             "posts": [
                 {
-                    "id": "2025131390782890380",
-                    "text": "今でも覚えてます\nこの日は珍しく熱くなり1/8通して\nポイント増えてその後1/2連続で外してポイント溶けて\n残ったポイントで普段回さないSwitch2単発で回したらまさかの当選🎉\n夢は終わらにぇ❤️‍🔥❤️‍🔥❤️‍🔥\n#DOPA当選報告\n#DOPA3周年 \n#DOPAオリパ https://t.co/5xaoHmFAF2",
-                    "author_name": "あかいブースター❤️‍🔥❤️‍🔥❤️‍🔥",
-                    "author_username": "black_r_rx",
-                    "created_at": "2026-02-21T17:52:03+09:00",
-                    "likes": 1,
+                    "id": "2025135649897255203",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\nピカチュウ当たった！ https://t.co/wJwf1xQNu1",
+                    "author_name": "ェレキばω・)ノ",
+                    "author_username": "815000v",
+                    "created_at": "2026-02-21T18:08:58+09:00",
+                    "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBq2Q49bgAI316z.jpg"
+                        "https://pbs.twimg.com/media/HBq6In8bgAAC2vF.jpg"
+                    ]
+                },
+                {
+                    "id": "2025134816690319417",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\nありがとうございます。 https://t.co/GUpC0nSG4X",
+                    "author_name": "影焔魔王闇黒神龍",
+                    "author_username": "CHACHA3605",
+                    "created_at": "2026-02-21T18:05:40+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBq5Yi_bgAA25H9.jpg"
+                    ]
+                },
+                {
+                    "id": "2025133967461261718",
+                    "text": "初めてカードが当たったよ。\nありがとうございました。\n\n#DOPAオリパ \n#DOPA当選報告 https://t.co/DFMB0N1ZSh",
+                    "author_name": "nunovaiPetrucciyngwiehowe",
+                    "author_username": "nunovaiyngwiejp",
+                    "created_at": "2026-02-21T18:02:17+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBq4SAbaoAA9u3v.jpg"
                     ]
                 }
             ]
@@ -62,8 +86,21 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2025133789186588883",
+                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【空飛ぶピカチュウ、フシギバナ、サンダース】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ https://t.co/spITw7xrqh",
+                    "author_name": "あっにい",
+                    "author_username": "yumegamitaize",
+                    "created_at": "2026-02-21T18:01:35+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBq4ch2bgAEfLEq.jpg"
+                    ]
+                }
+            ]
         }
     }
 }
