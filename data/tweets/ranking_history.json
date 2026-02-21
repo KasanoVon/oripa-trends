@@ -2878,5 +2878,35 @@
         "color": "#f59e0b"
       }
     }
+  },
+  {
+    "ts": "2026-02-21T14:15:03.341799+00:00",
+    "data": {
+      "#オリパワン当選報告": {
+        "new_posts": 2,
+        "total_posts": 232,
+        "color": "#3b82f6"
+      },
+      "#トレカセンター当選報告": {
+        "new_posts": 2,
+        "total_posts": 13,
+        "color": "#8b5cf6"
+      },
+      "#DOPA当選報告": {
+        "new_posts": 0,
+        "total_posts": 147,
+        "color": "#10b981"
+      },
+      "#Clove当選報告": {
+        "new_posts": 0,
+        "total_posts": 4,
+        "color": "#f43f5e"
+      },
+      "#オリくじ当選報告": {
+        "new_posts": 0,
+        "total_posts": 31,
+        "color": "#f59e0b"
+      }
+    }
   }
 ]

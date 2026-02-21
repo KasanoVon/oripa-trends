@@ -1,16 +1,66 @@
 {
-    "fetched_at": "2026-02-21T14:00:03.367333+00:00",
+    "fetched_at": "2026-02-21T14:15:03.341799+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 2,
+            "posts": [
+                {
+                    "id": "2025211570054463515",
+                    "text": "オリパワン（@oripaone）\n#オリパワン当選報告 https://t.co/rTmbWIBEu7",
+                    "author_name": "田中雄士",
+                    "author_username": "ujiisgood",
+                    "created_at": "2026-02-21T23:10:39+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBr_MFLaQAAnOuP.jpg"
+                    ]
+                },
+                {
+                    "id": "2025209148351328680",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nミライドンが当たりました！\n\n#オリパワン当選報告 https://t.co/0CXlZJRWDh",
+                    "author_name": "セイバー",
+                    "author_username": "seiber134679",
+                    "created_at": "2026-02-21T23:01:02+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBr8_AsbYAA7nhw.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
-            "count": 0,
-            "posts": []
+            "count": 2,
+            "posts": [
+                {
+                    "id": "2025212245073166570",
+                    "text": "#トレカセンター当選報告 \n\n福袋100万円分当たったやつが届いた！\n全然送られてこないって見たから心配だったけど無事届いて良かった\n\nリザードンかっこいい😎 https://t.co/hFKcwJL2ZI",
+                    "author_name": "ぬーぶ",
+                    "author_username": "ZetaOsee",
+                    "created_at": "2026-02-21T23:13:20+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBr_zLdawAAja_N.jpg"
+                    ]
+                },
+                {
+                    "id": "2025211801030590620",
+                    "text": "もう何でもありですね。笑\nトレセンで遊戯王を回してる方は気を付けましょう。笑\n\n#トレカセンター当選報告\n#日本トレカセンター\n#トレカセンター https://t.co/9kKGSeamM0",
+                    "author_name": "チーズ",
+                    "author_username": "oripa_0711",
+                    "created_at": "2026-02-21T23:11:34+09:00",
+                    "likes": 2,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBr_ZZubAAEXCLQ.jpg"
+                    ]
+                }
+            ]
         },
         "#DOPA当選報告": {
             "color": "#10b981",
