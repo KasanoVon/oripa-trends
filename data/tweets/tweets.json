@@ -1,5 +1,5 @@
 {
-    "fetched_at": "2026-02-21T05:00:04.660401+00:00",
+    "fetched_at": "2026-02-21T05:15:03.373521+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
@@ -7,15 +7,15 @@
             "count": 1,
             "posts": [
                 {
-                    "id": "2025070748625502648",
-                    "text": "オリパワン(@oripaone)しか勝たん！\n\nＶユニピカチュウが当たりました！\n\n#オリパワン当選報告 https://t.co/BlOLF96oFK",
-                    "author_name": "nao777",
-                    "author_username": "naochan_chin777",
-                    "created_at": "2026-02-21T13:51:05+09:00",
+                    "id": "2025076322910044447",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nゼクロムが当たりました！\n\n#オリパワン当選報告 https://t.co/geot6hk5Ek",
+                    "author_name": "ぴよぴ",
+                    "author_username": "L7PIYO",
+                    "created_at": "2026-02-21T14:13:14+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBp_G53bcAEVBYj.jpg"
+                        "https://pbs.twimg.com/media/HBqELSUaMAAxur5.jpg"
                     ]
                 }
             ]
@@ -30,15 +30,15 @@
             "count": 1,
             "posts": [
                 {
-                    "id": "2025069281768296936",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n⭐︎リーリエのアブリボン⭐︎\n当選しました♪\nいつもありがとうございます♪ https://t.co/geRA8JbSB9",
-                    "author_name": "Daiki824",
-                    "author_username": "Z9tjEa",
-                    "created_at": "2026-02-21T13:45:15+09:00",
+                    "id": "2025074597306270106",
+                    "text": "ムニキスゼロのBOX当たりました👍\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/35gst9PLzS",
+                    "author_name": "照り焼きマン",
+                    "author_username": "ys6me",
+                    "created_at": "2026-02-21T14:06:22+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBp9xvEboAAMaC9.jpg"
+                        "https://pbs.twimg.com/media/HBqCnBib0AAGcUG.jpg"
                     ]
                 }
             ]
@@ -50,21 +50,8 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025072528524480543",
-                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【ゼラオラV、スペースジャグラーbox】ぶち抜きで爆アドゲットだぜ！！！\n\n先月から始めてやっとレベル100達成\n松コースのプレゼントもいただきました！\nフルメタルウォール、スカーレットex、バトルパートナーズでした。\n\n#オリくじ当選報告\n#オリくじ https://t.co/toQxYMsi45",
-                    "author_name": "gaimon",
-                    "author_username": "gaimon758",
-                    "created_at": "2026-02-21T13:58:09+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqAucoa4AA9rY9.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         }
     }
 }
