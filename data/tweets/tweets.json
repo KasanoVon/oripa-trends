@@ -1,36 +1,11 @@
 {
-    "fetched_at": "2026-02-21T14:45:03.378599+00:00",
+    "fetched_at": "2026-02-21T15:00:03.773339+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025218687096201320",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nマリィ、ピカチュウex、ミュウexが当たりました！\n\n#オリパワン当選報告 https://t.co/2OKnbX9sVu",
-                    "author_name": "HIRO",
-                    "author_username": "boss19851128",
-                    "created_at": "2026-02-21T23:38:56+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsFqK0b0AESQTn.jpg"
-                    ]
-                },
-                {
-                    "id": "2025218456984191252",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nリーリエの全力が当たりました！\n\n#オリパワン当選報告 https://t.co/qRVEyloTp4",
-                    "author_name": "HIRO",
-                    "author_username": "boss19851128",
-                    "created_at": "2026-02-21T23:38:01+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsFcwAbwAA9kD9.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -39,45 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 3,
-            "posts": [
-                {
-                    "id": "2025219519221055629",
-                    "text": "DOPAで当選しました🔥\n\n#DOPA当選報告 \n#DOPAオリパ https://t.co/FTXGWAm0Hi",
-                    "author_name": "rin",
-                    "author_username": "taku11531153",
-                    "created_at": "2026-02-21T23:42:14+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsGac5bgAYfKKC.jpg"
-                    ]
-                },
-                {
-                    "id": "2025219367114604584",
-                    "text": "DOPAで当選しました🔥\n\n#DOPA当選報告 \n#DOPAオリパ https://t.co/Vdqfe4Q4IZ",
-                    "author_name": "rin",
-                    "author_username": "taku11531153",
-                    "created_at": "2026-02-21T23:41:38+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsGRpVaoAAgDpP.jpg"
-                    ]
-                },
-                {
-                    "id": "2025218887252681086",
-                    "text": "やったりました！\n10万ポイント以上は2回目✨\n\nやっぱりDOPAですかね？（笑）\n\n#DOPA当選報告 https://t.co/juoJpdtSDW",
-                    "author_name": "milk@料理人",
-                    "author_username": "japan_369g",
-                    "created_at": "2026-02-21T23:39:44+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsFxJCbgAUlPkr.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
