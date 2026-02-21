@@ -1,24 +1,11 @@
 {
-    "fetched_at": "2026-02-21T22:45:04.012226+00:00",
+    "fetched_at": "2026-02-21T23:00:03.979341+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025340078160257354",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nメガカイリューEX、リーリエの決心、ピカチュウが当たりました！\n\n#オリパワン当選報告 https://t.co/yb6jsZNSJx",
-                    "author_name": "高橋",
-                    "author_username": "niku29niku2929",
-                    "created_at": "2026-02-22T07:41:18+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBt0EXGagAAhP7z.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -27,8 +14,21 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2025341842120999174",
+                    "text": "#DOPAオリパ\n#DOPA当選報告\n被り物してるピカチュウ当たりましたー🥳いつもありがとうございまーす🎉 https://t.co/eNA467fB0I",
+                    "author_name": "田中強",
+                    "author_username": "pnMFPlbTwFA3ra2",
+                    "created_at": "2026-02-22T07:48:18+09:00",
+                    "likes": 1,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBt1quKawAAD8Ck.jpg"
+                    ]
+                }
+            ]
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
