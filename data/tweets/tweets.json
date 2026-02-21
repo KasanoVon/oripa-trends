@@ -1,11 +1,24 @@
 {
-    "fetched_at": "2026-02-21T18:45:03.726044+00:00",
+    "fetched_at": "2026-02-21T19:00:03.725820+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 0,
-            "posts": []
+            "count": 1,
+            "posts": [
+                {
+                    "id": "2025282991984181460",
+                    "text": "オリパワン（@oripaone）しか勝たん！\n\nエーフィvmaxが当たりました！\n\n#オリパワン当選報告 https://t.co/UxfEpLGyW0",
+                    "author_name": "オズパ",
+                    "author_username": "pasapapakuni",
+                    "created_at": "2026-02-22T03:54:27+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBtAJQ9bgAAoRcd.jpg"
+                    ]
+                }
+            ]
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
