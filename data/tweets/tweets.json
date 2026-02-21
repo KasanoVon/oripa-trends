@@ -1,36 +1,11 @@
 {
-    "fetched_at": "2026-02-21T11:00:03.605156+00:00",
+    "fetched_at": "2026-02-21T11:15:03.591762+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025163177881899472",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピクティニ当たりました🔥🔥！！\n発送早くてありがたいです！\n\n#オリパワン当選報告 https://t.co/9eJk5HHUvc",
-                    "author_name": "くまのこ",
-                    "author_username": "kumanokichi_3",
-                    "created_at": "2026-02-21T19:58:21+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrTLZObgAE6-I1.jpg"
-                    ]
-                },
-                {
-                    "id": "2025161860367196221",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nガラルファイヤーV\nピカチュウ\nが当たりました！\n\n#オリパワン当選報告 https://t.co/trIPNDBRCR",
-                    "author_name": "k",
-                    "author_username": "sone_2580",
-                    "created_at": "2026-02-21T19:53:07+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrR-XLaYAA8yBh.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -39,45 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 3,
-            "posts": [
-                {
-                    "id": "2025161586198151204",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n可愛い✨ https://t.co/dvaKQjEpfL",
-                    "author_name": "BMSK",
-                    "author_username": "BSMRSNKM",
-                    "created_at": "2026-02-21T19:52:02+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrRugVbgAU-Djm.jpg"
-                    ]
-                },
-                {
-                    "id": "2025161291804053513",
-                    "text": "久しぶりのBOX〜！\n#DOPAオリパ\n#DOPA当選報告 https://t.co/umlS0c4shr",
-                    "author_name": "みみみ",
-                    "author_username": "XYPJ0hg3e8B1Hlg",
-                    "created_at": "2026-02-21T19:50:52+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrRdXXbgAAcOZ5.jpg"
-                    ]
-                },
-                {
-                    "id": "2025159905133621567",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n\n久々に赤演出見た✨\n持ってないので発送です🙌 https://t.co/kwet0BXdUI",
-                    "author_name": "airinrin",
-                    "author_username": "airinrin9817",
-                    "created_at": "2026-02-21T19:45:21+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBrQM1wbgAMTLAZ.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
