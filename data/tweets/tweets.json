@@ -1,72 +1,11 @@
 {
-    "fetched_at": "2026-02-21T07:15:03.483669+00:00",
+    "fetched_at": "2026-02-21T07:30:03.460895+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 5,
-            "posts": [
-                {
-                    "id": "2025105832942469632",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nミモザが当たりました！\n\n#オリパワン当選報告 https://t.co/sGkLgD7g8V",
-                    "author_name": "らえりー@低浮上",
-                    "author_username": "Rqely",
-                    "created_at": "2026-02-21T16:10:29+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqfBRCaUAAppAr.jpg"
-                    ]
-                },
-                {
-                    "id": "2025105162155819016",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nサトシのピカチュウが当たりました！\n\n#オリパワン当選報告 https://t.co/2mo535Oh7W",
-                    "author_name": "さっぱりピーマン",
-                    "author_username": "XcC1gG6vklMYOmE",
-                    "created_at": "2026-02-21T16:07:49+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqeaOqacAAT0nh.jpg"
-                    ]
-                },
-                {
-                    "id": "2025105054345429396",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nピカチュウex sar が当たりました！\n\n#オリパワン当選報告 https://t.co/Y7oXZGv0iC",
-                    "author_name": "さっぱりピーマン",
-                    "author_username": "XcC1gG6vklMYOmE",
-                    "created_at": "2026-02-21T16:07:24+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqeT9Jb0AA2SY2.jpg"
-                    ]
-                },
-                {
-                    "id": "2025104899743387947",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nメガリザードンxex が当たりました！\n\n#オリパワン当選報告 https://t.co/Eo80NlNqsV",
-                    "author_name": "さっぱりピーマン",
-                    "author_username": "XcC1gG6vklMYOmE",
-                    "created_at": "2026-02-21T16:06:47+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqeK-HaYAAWeay.jpg"
-                    ]
-                },
-                {
-                    "id": "2025103898667876782",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nリザードンvmax　psa10が当たりました！\n\n#オリパワン当選報告 https://t.co/h60BMH4bSJ",
-                    "author_name": "オジマ",
-                    "author_username": "198Black",
-                    "created_at": "2026-02-21T16:02:48+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqdQcAa8AEHWkz.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -75,21 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025103526117212520",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\n\nゼニガメも当たりました。\n151では人気なやつですね！\n綺麗だよね〜 https://t.co/7etfdC16ck",
-                    "author_name": "メト/唐揚げの閃光",
-                    "author_username": "metonhydrate",
-                    "created_at": "2026-02-21T16:01:19+09:00",
-                    "likes": 1,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqc6-pbgAQ4ye9.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
