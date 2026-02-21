@@ -1,60 +1,11 @@
 {
-    "fetched_at": "2026-02-21T07:45:03.488719+00:00",
+    "fetched_at": "2026-02-21T08:00:03.328528+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 4,
-            "posts": [
-                {
-                    "id": "2025113451316871273",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nブラックマジシャンガールが当たりました！\n\n#オリパワン当選報告 https://t.co/qff4B1n7ua",
-                    "author_name": "@sonaki",
-                    "author_username": "sonaki89246783",
-                    "created_at": "2026-02-21T16:40:46+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBql7BqbcAA1bZM.jpg"
-                    ]
-                },
-                {
-                    "id": "2025112871445954967",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nPSA10が当たりました！\n\n#オリパワン当選報告 https://t.co/hQUTkdyclz",
-                    "author_name": "カジサック大好き",
-                    "author_username": "KAJISAC0109",
-                    "created_at": "2026-02-21T16:38:27+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqla66bgAMjj-F.jpg"
-                    ]
-                },
-                {
-                    "id": "2025112207869313301",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nムニキスゼロのBOXとPSA10が当たりました！\n\n#オリパワン当選報告 https://t.co/lRq37WeEDy",
-                    "author_name": "カジサック大好き",
-                    "author_username": "KAJISAC0109",
-                    "created_at": "2026-02-21T16:35:49+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqk0V1bgAE2E1z.jpg"
-                    ]
-                },
-                {
-                    "id": "2025111044000235759",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nシャンクス・ペローナが当たりました！\n\n#オリパワン当選報告 https://t.co/tlPcQHlhff",
-                    "author_name": "ぷるちぃ。",
-                    "author_username": "tsuruo8307",
-                    "created_at": "2026-02-21T16:31:12+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqjwpIaUAAjrp6.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -73,33 +24,8 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025113800719171588",
-                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【メガリザードンX ex】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ https://t.co/DznTfNmnOZ",
-                    "author_name": "ギャンカス@",
-                    "author_username": "6zqoJCas2IzJZEU",
-                    "created_at": "2026-02-21T16:42:09+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqmQ4bb0AA4uAX.jpg"
-                    ]
-                },
-                {
-                    "id": "2025112431572537651",
-                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n\n【ピカチュウARとVSTARユニバース】ぶち抜きで爆アドゲットだぜ！\n\n#オリくじ当選報告\n#オリくじ https://t.co/teqIz7dHel",
-                    "author_name": "あかみ",
-                    "author_username": "zhequwFjECE8u7r",
-                    "created_at": "2026-02-21T16:36:43+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBqlBVEbgAAJD7p.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         }
     }
 }
