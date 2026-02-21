@@ -1,24 +1,11 @@
 {
-    "fetched_at": "2026-02-21T18:15:03.625104+00:00",
+    "fetched_at": "2026-02-21T18:30:03.939708+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025271182107480176",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nリザードンvが当たりました！\n\n#オリパワン当選報告 https://t.co/wqMR1MVpLz",
-                    "author_name": "gaimon",
-                    "author_username": "gaimon758",
-                    "created_at": "2026-02-22T03:07:32+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs1ZlDbgAMoDDM.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -27,72 +14,8 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 5,
-            "posts": [
-                {
-                    "id": "2025272995242279206",
-                    "text": "ムニキスゼロBOX×4、\nメガシンフォニアBOX\n当たりました。\n\n招待コード: Q0fI2z48\n\n#DOPAオリパ\n#DOPA当選報告 \n#dopa3周年おめでとう https://t.co/5UlihcmP6J",
-                    "author_name": "🟠401",
-                    "author_username": "tessa1988401",
-                    "created_at": "2026-02-22T03:14:44+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs3CpzacAAr99v.jpg"
-                    ]
-                },
-                {
-                    "id": "2025272716883100034",
-                    "text": "メガシンフォニア3枚パック\n当たりました。\n\n招待コード: Q0fI2z48\n\n#DOPAオリパ\n#DOPA当選報告 \n#dopa3周年おめでとう https://t.co/YEt1EFOnNo",
-                    "author_name": "🟠401",
-                    "author_username": "tessa1988401",
-                    "created_at": "2026-02-22T03:13:38+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs2yHCbgAIqrE3.jpg"
-                    ]
-                },
-                {
-                    "id": "2025272380302737445",
-                    "text": "Supreme × Nike SB Dunk High By Any Means \"Red/Navy-White\"\n当たりました。\n\n招待コード: Q0fI2z48\n\n#DOPAオリパ\n#DOPA当選報告 \n#dopa3周年おめでとう https://t.co/mH0NCKpGWC",
-                    "author_name": "🟠401",
-                    "author_username": "tessa1988401",
-                    "created_at": "2026-02-22T03:12:17+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs2ecWbUAAQ590.jpg",
-                        "https://pbs.twimg.com/media/HBs2ecRbgAUXPD6.jpg"
-                    ]
-                },
-                {
-                    "id": "2025271931826815205",
-                    "text": "Supreme × Nike SB Dunk Low \"Ink\" \n当たりました。\n\n招待コード: Q0fI2z48\n\n#DOPAオリパ\n#DOPA当選報告 \n#dopa3周年おめでとう https://t.co/x2Yzo22CEw",
-                    "author_name": "🟠401",
-                    "author_username": "tessa1988401",
-                    "created_at": "2026-02-22T03:10:30+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs2EoubgAIS1Ry.jpg",
-                        "https://pbs.twimg.com/media/HBs2Eo1bgAAe4dZ.jpg"
-                    ]
-                },
-                {
-                    "id": "2025271105012072859",
-                    "text": "トロフィールーム当たりました。\n\n招待コード: Q0fI2z48\n\n#DOPAオリパ\n#DOPA当選報告 \n#dopa3周年おめでとう https://t.co/ALxmPNowWY",
-                    "author_name": "🟠401",
-                    "author_username": "tessa1988401",
-                    "created_at": "2026-02-22T03:07:13+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBs1TONbgAQUhy-.jpg",
-                        "https://pbs.twimg.com/media/HBs1TOQbgAM6SeQ.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
@@ -101,21 +24,8 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025269539009855677",
-                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【ミュウ】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ https://t.co/oUuimHTCun",
-                    "author_name": "m",
-                    "author_username": "muu808r07Mr",
-                    "created_at": "2026-02-22T03:01:00+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsz6Sna0AAj_eK.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         }
     }
 }
