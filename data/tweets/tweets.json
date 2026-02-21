@@ -1,94 +1,21 @@
 {
-    "fetched_at": "2026-02-21T01:00:02.621413+00:00",
+    "fetched_at": "2026-02-21T01:15:02.639454+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 2,
-            "posts": [
-                {
-                    "id": "2025010582928388488",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nエリカ、ピカチュウ当たりました！\n\nありがとうございます。\n\n#オリパワン当選報告 https://t.co/WfsMZFrvzF",
-                    "author_name": "トニー大佐EX7",
-                    "author_username": "yuuki04120",
-                    "created_at": "2026-02-21T09:52:00+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpIY7ebgAAhIjH.jpg"
-                    ]
-                },
-                {
-                    "id": "2025010503018578090",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nなんか色々当たりました！\n今回はマイナスです…\n次はお願いしますよ！！\n招待コードのせときます！\nPy7NoR\n\n#オリパワン当選報告 https://t.co/oXORuak6wk",
-                    "author_name": "カス",
-                    "author_username": "1go1e_k",
-                    "created_at": "2026-02-21T09:51:41+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpIUGSaIAAAZw1.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025010338480226564",
-                    "text": "#トレカセンター当選報告 \n届きました✨ https://t.co/O2ERFUPWHF",
-                    "author_name": "ナベリズム",
-                    "author_username": "hMgK34Yjnl36642",
-                    "created_at": "2026-02-21T09:51:02+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpIBgJaEAAu_oE.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 3,
-            "posts": [
-                {
-                    "id": "2025012325246456130",
-                    "text": "バトバボックス当たったよー\n\n#DOPA当選報告\n#DOPAオリパ",
-                    "author_name": "naaao",
-                    "author_username": "naonao21574154",
-                    "created_at": "2026-02-21T09:58:55+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": []
-                },
-                {
-                    "id": "2025012072359330060",
-                    "text": "DOPAくん届いたよー！！\nミュウツーの周りに護衛もたくさんついてました笑\n#DOPAオリパ\n#DOPA当選報告\n#dopa3周年おめでとう \n#DOPAくんのよふかし https://t.co/06FQVYhbRk",
-                    "author_name": "ブチャ男",
-                    "author_username": "buchao7310",
-                    "created_at": "2026-02-21T09:57:55+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpJvcQa0AAdr1e.jpg"
-                    ]
-                },
-                {
-                    "id": "2025011927249027525",
-                    "text": "持ってなかったから嬉しい〜✨\n間違ってルイージピカチュウ当たらないかな笑🙏🙏\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/LDkGivc0ZD",
-                    "author_name": "naaao",
-                    "author_username": "naonao21574154",
-                    "created_at": "2026-02-21T09:57:21+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpJnRdbgAMNkKx.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#Clove当選報告": {
             "color": "#f43f5e",
@@ -97,21 +24,8 @@
         },
         "#オリくじ当選報告": {
             "color": "#f59e0b",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025011040925479069",
-                    "text": "オリくじ（@orikuji）がアツすぎる🔥\n【見返り美人ピカチュウ】ぶち抜きで爆アドゲットだぜ！！！\n\n#オリくじ当選報告\n#オリくじ https://t.co/nQ43kmLXrd",
-                    "author_name": "けいめる",
-                    "author_username": "2u5Nsaj2yN51106",
-                    "created_at": "2026-02-21T09:53:49+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBpIznGbgAIOPwm.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         }
     }
 }
