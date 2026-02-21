@@ -1,24 +1,11 @@
 {
-    "fetched_at": "2026-02-21T15:45:03.507893+00:00",
+    "fetched_at": "2026-02-21T16:00:03.497510+00:00",
     "window_min": 15,
     "hashtags": {
         "#オリパワン当選報告": {
             "color": "#3b82f6",
-            "count": 1,
-            "posts": [
-                {
-                    "id": "2025232909762982145",
-                    "text": "オリパワン（@oripaone）しか勝たん！\n\nメガカイリューが当たりました！\n\n#オリパワン当選報告 https://t.co/J2walzRgts",
-                    "author_name": "20日ぶりの起床本田",
-                    "author_username": "koudai1998h",
-                    "created_at": "2026-02-22T00:35:27+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsSmFEbgAwlnNG.jpg"
-                    ]
-                }
-            ]
+            "count": 0,
+            "posts": []
         },
         "#トレカセンター当選報告": {
             "color": "#8b5cf6",
@@ -27,90 +14,78 @@
         },
         "#DOPA当選報告": {
             "color": "#10b981",
-            "count": 7,
+            "count": 6,
             "posts": [
                 {
-                    "id": "2025235226923073927",
-                    "text": "なにかのPSA\nスイクン！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/dS2PQhvo8v",
+                    "id": "2025238909412917426",
+                    "text": "サーナイト！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/jFzh1UAZnP",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:44:39+09:00",
+                    "created_at": "2026-02-22T00:59:17+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsUsxXbgAYnCME.jpg"
+                        "https://pbs.twimg.com/media/HBsYDGPbgAAJ6HX.jpg"
                     ]
                 },
                 {
-                    "id": "2025234844352184808",
-                    "text": "グレイシア SAR\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/Zcve46pIXX",
+                    "id": "2025238519216832996",
+                    "text": "5万円の福袋！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/vG3AaBozEg",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:43:08+09:00",
+                    "created_at": "2026-02-22T00:57:44+09:00",
                     "likes": 1,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsUWd0bgAEYS4Q.jpg"
+                        "https://pbs.twimg.com/media/HBsXsb8bgAchh5Q.jpg"
                     ]
                 },
                 {
-                    "id": "2025234515602669699",
-                    "text": "なにかのPSA\nピカチュウ ！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/dndybvboeZ",
+                    "id": "2025236162848362766",
+                    "text": "なにかのPSA\nフシギバナ\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/uGqT0aTdb2",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:41:50+09:00",
+                    "created_at": "2026-02-22T00:48:22+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsUDJtbgAQdGeg.jpg"
+                        "https://pbs.twimg.com/media/HBsVjHeawAAUosO.jpg"
                     ]
                 },
                 {
-                    "id": "2025233525247803602",
-                    "text": "ミミッキュ！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/9UfvaVU6Df",
+                    "id": "2025235736879136907",
+                    "text": "バレンタインデー企画の引きたかったから欲しくも無いバラパック発送したけど終わってた()\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/0krxUAQr6f",
+                    "author_name": "かずみん",
+                    "author_username": "kazumin892",
+                    "created_at": "2026-02-22T00:46:41+09:00",
+                    "likes": 0,
+                    "retweets": 0,
+                    "images": [
+                        "https://pbs.twimg.com/media/HBsVK3QbgAEwkZm.jpg"
+                    ]
+                },
+                {
+                    "id": "2025235674832797782",
+                    "text": "なにかのPSA\nニドキング！\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/5og0Lfxlyx",
                     "author_name": "ten",
                     "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:37:54+09:00",
+                    "created_at": "2026-02-22T00:46:26+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsTJuZbgAU7YHj.jpg"
+                        "https://pbs.twimg.com/media/HBsVGv4bMAA6dXw.jpg"
                     ]
                 },
                 {
-                    "id": "2025233306489585767",
-                    "text": "マリィのモルペコ\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/xAGI38fOOp",
-                    "author_name": "ten",
-                    "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:37:01+09:00",
+                    "id": "2025235626497646757",
+                    "text": "#DOPAオリパ\n#DOPA当選報告 \nあけられない\n初めてꉂ 🤭 https://t.co/gpbj0ZyFH6",
+                    "author_name": "misaki",
+                    "author_username": "tktkCBR250RR",
+                    "created_at": "2026-02-22T00:46:15+09:00",
                     "likes": 0,
                     "retweets": 0,
                     "images": [
-                        "https://pbs.twimg.com/media/HBsS8-cbgAQOWiU.jpg"
-                    ]
-                },
-                {
-                    "id": "2025232357259968607",
-                    "text": "なにかのPSA\nマクピカ。\n\n#DOPAオリパ\n#DOPA当選報告 https://t.co/42PFm47f7H",
-                    "author_name": "ten",
-                    "author_username": "tentensup",
-                    "created_at": "2026-02-22T00:33:15+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsSF09aoAAnXh9.jpg"
-                    ]
-                },
-                {
-                    "id": "2025231832347017358",
-                    "text": "#DOPAオリパ\n#DOPA当選報告\nボックス当選！ https://t.co/eM5PNJzPS2",
-                    "author_name": "Iti",
-                    "author_username": "itigonoai",
-                    "created_at": "2026-02-22T00:31:10+09:00",
-                    "likes": 0,
-                    "retweets": 0,
-                    "images": [
-                        "https://pbs.twimg.com/media/HBsRnZNbgAANWiL.jpg"
+                        "https://pbs.twimg.com/media/HBsVEVfbgAEtKwf.jpg"
                     ]
                 }
             ]
